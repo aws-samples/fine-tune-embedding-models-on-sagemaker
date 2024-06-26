@@ -7,8 +7,8 @@ Domain-specific embeddings can significantly improve the quality of vector repre
 
 
 ## Contents
-- `sentence-transformer/`: This directory contains a Jupyter notebook demonstrating how to fine-tune a sentence embedding model using the Multiple Negatives Ranking Loss technique.  The Multiple Negatives Ranking Loss function is recommended when in your training data you only have positive pairs, for example, only pairs of similar texts like pairs of paraphrases, pairs of duplicate questions, pairs of (query, response), or pairs of (source_language, target_language).   
-We are using the [Multiple Negatives Ranking Loss function](https://www.sbert.net/docs/package_reference/sentence_transformer/losses.html#multiplenegativesrankingloss) because we are utilizing [Bedrock FAQ](https://aws.amazon.com/bedrock/faqs/) as the training data, which consists of pairs of questions and answers.  
+- `sentence-transformer/`: This directory contains a Jupyter notebook demonstrating how to fine-tune a sentence embedding model using the Multiple Negatives Ranking Loss technique. The [Multiple Negatives Ranking Loss function](https://www.sbert.net/docs/package_reference/sentence_transformer/losses.html#multiplenegativesrankingloss) is recommended when in your training data you only have positive pairs, for example, only pairs of similar texts like pairs of paraphrases, pairs of duplicate questions, pairs of (query, response), or pairs of (source_language, target_language).   
+We are using the Multiple Negatives Ranking Loss function because we are utilizing [Bedrock FAQ](https://aws.amazon.com/bedrock/faqs/) as the training data, which consists of pairs of questions and answers.  
 The code in this directory is used in the AWS blog post "Improve RAG accuracy with finetuned embedding models on Sagemaker"
   
 ## Security
