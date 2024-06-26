@@ -1,4 +1,4 @@
-## Fine-Tuning Embedding Models on SageMaker
+## Fine-Tuning Embedding Models on Amazon SageMaker
 
 This repository contains samples for fine-tuning embedding models using Amazon SageMaker.  
 Embedding models are useful for tasks such as semantic similarity, text clustering, and information retrieval.  
