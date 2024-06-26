@@ -1,6 +1,7 @@
 ## Fine-Tuning Embedding Models on SageMaker
 
-This repository contains samples for fine-tuning embedding models using Amazon SageMaker. Embedding models are useful for tasks such as semantic similarity, text clustering, and information retrieval.  
+This repository contains samples for fine-tuning embedding models using Amazon SageMaker.  
+Embedding models are useful for tasks such as semantic similarity, text clustering, and information retrieval.  
 By fine-tuning embedding model on data that is representative of the target domain or task, the model can learn to capture the relevant semantics, jargon, and contextual relationships that are crucial for that domain.  
 Domain-specific embeddings can significantly improve the quality of vector representations, leading to more accurate retrieval of relevant context from the vector database. This, in turn, enhances the performance of the RAG system in terms of generating more accurate and relevant responses.
 
